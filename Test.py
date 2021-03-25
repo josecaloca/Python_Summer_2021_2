@@ -1,6 +1,8 @@
 print("Hello World")
 
 a = 50
-if a > 40:
-    print("a is bigger than 40")
+if a > 50:
+    print("a > 40")
     print("abc")
+
+print("test")
