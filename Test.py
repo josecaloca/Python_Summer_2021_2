@@ -6,3 +6,5 @@ if a > 50:
     print("abc")
 
 print("test")
+
+b = 100
