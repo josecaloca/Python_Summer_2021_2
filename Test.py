@@ -7,4 +7,4 @@ if a > 50:
 
 print("test")
 
-b = 100
+b = 400
