@@ -1,32 +1,31 @@
 s = 'abcdefaa'
-
 print(len(s))
+print(s.count('a'))
 print(s[1:])
 print(s[1:3])
 print(s[:2])
-print(s[-2:])
 print(s[-3:])
 
-s2 = 'abc\ndef' # \n includes another line
+s2 = 'abc\n\rdef'
 print(s2)
 
-print(ord('a')) ## check ascii table
+print(ord('a'))
 
-s4 = 'abc\tdef\t\t\thello'
+s3 = 'gsgałóóżźćą'
+print(s3)
+
+
+s4 = 'abc\tdef\t\t\tegwg'
 print(s4)
 
-s5 = 'abc\td\ef\t\t\te\gwg'
+s5 = 'abc\td\ef\t\t\te\gw\\tg'
 print(s5)
-
-s6 = "student's"
+s6 = "agsag'agsg"
+s6 = 'agsag\'agsg'
 print(s6)
+s7 = '    asgsgsag asggs   '
 
-s6 = 'student\'s'
-print(s6)
-
-s7 = '              asasasas asasasasas'
-print(s7.strip()) # eliminates leading spaces
+print(s7.strip())
 
 s5_tab = s5.split('\t')
-print(s5_tab )
-
+print(s5_tab)
