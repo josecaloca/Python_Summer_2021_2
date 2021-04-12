@@ -23,4 +23,7 @@ def word_count(file_path):
     print(freq)
 
 
-word_count(r".\test_file.txt") 
+word_count(r".\test_file.txt")
+
+# you can test with a .txt file posted on GitHub for testing purposes:
+# https://github.com/josecaloca/Python_Summer_2021_2/blob/master/homeworks/test_file
