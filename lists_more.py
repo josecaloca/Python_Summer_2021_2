@@ -9,3 +9,9 @@ def sum_val_list(l1):
     print(sum_all)
 
 sum_val_list(l1)
+
+
+import numpy as np
+np.sum(l1)
+np.sum(l1, axis=0)
+np.sum(l1, axis=1)
