@@ -26,4 +26,4 @@ def stock_data(folder):
             print(str(type(nve)) + ' handling: ' + str(nve))
 
 
-stock_data(".\\files")
+stock_data(".\\files") # there should be created a folder called "files" that contains the data to read and manipulate
