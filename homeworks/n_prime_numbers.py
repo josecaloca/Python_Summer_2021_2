@@ -1,6 +1,7 @@
 '''
-Assignment: write a program that print the first N prime numbers.
+Instructions: Please write a program that print the first N prime numbers.
 N should be declared as a variable at the beginning of your code.
+You can hand it in as a link to your file at github or you can attach a file here in the assignment.
 '''
 
 
