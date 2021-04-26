@@ -1,3 +1,10 @@
+'''
+Instructions:
+Using recursion please write a function that will compute the total space occupied by a folder and its subfolders and files.
+Please do not use os.walk or any other system command to return the size directly but implement it yourself. For reference you can see a version of the code that uses os.walk instead of recursion here: https://github.com/prubach/Python_Summer_2021_2/blob/master/space_occupied.py
+Once you have that working correctly please add also counting of the number of files in that folder and all its subfolders
+'''
+
 import os
 
 def space_occupied(f):
