@@ -7,7 +7,7 @@ Once you have that working correctly please add also counting of the number of f
 
 import os
 
-def space_occupied(f):
+def folder_size(f):
     total_size = os.path.getsize(f)
     for i in os.listdir(f):
         path = os.path.join(f, i)
@@ -18,4 +18,16 @@ def space_occupied(f):
               total_size += space_occupied(path)
     return total_size
 
-# print(space_occupied('C:\abcdef'))
+
+def file_count(f):
+    list_dir = []
+    list_dir = os.listdir(f)
+    count = 0
+    for file in list_dir:
+        if file.endswith(''):
+            count += 1
+    return count
+
+
+print(folder_size('homeworks'), "size in bytes of folder/subfolders/files")
+print(file_count('homeworks', ''), "files in my local folder")
