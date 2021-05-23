@@ -1,3 +1,12 @@
+'''
+Instructions:
+
+Please extend the Account, Bank and Customer classes located in bank.py (https://github.com/prubach/Python_Summer_2021_2/blob/master/bank/Bank.py) filling in the TODOs and adding:
+- validation for deposit to prevent any misuse of this function (unsafe operations that can influence the balance of the acoount
+- implementation of the list of Customers and Accounts in Bank. Use a single list for both types of accounts. Use the factory methods that create Customer and XXXAccount objects to add the pointers to those newly created objects to the appropriate list.
+- implementation of transfer(...) in Bank. As you do that please also include validation of input parameters
+'''
+
 class Customer:
     last_id = 0
 
