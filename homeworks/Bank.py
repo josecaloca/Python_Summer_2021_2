@@ -89,8 +89,8 @@ class Bank:
 
 bank = Bank()
 
-c1 = bank.create_customer("Jan", "Kowalski", "j.kowalski@gmail.com")
-c2 = bank.create_customer("Mark", "Powerrade", "makeyoufly@gmail.com")
+c1 = bank.create_customer("Julio", "Perez", "j.perez@gmail.com")
+c2 = bank.create_customer("Susan", "Smart", "s.smart@gmail.com")
 print(c1)
 print(c2)
 a1 = bank.create_account(c1)
